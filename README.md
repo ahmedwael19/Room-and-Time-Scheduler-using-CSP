@@ -77,4 +77,9 @@ We created our own visualizers to be able to print the output in a readable form
 
 
 
+## Authors
+
+* **Ahmed Wael** - [Github](https://github.com/ahmedwael19)
+* **Shrouk Mohamed** - [Github](https://github.com/ShroukMohamedAhmed)
+
 # All the code is in the notebook and you can find more details in the report.
