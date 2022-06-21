@@ -23,6 +23,8 @@ This project was developed for Artificial Intelligence class Spring 2020.
   - A student from a certain academic year / major does not take courses from another year / major, meaning that conflicts only are a problem for each specific batch in a major
   - Any room is available for teaching during all of the week days, all of the working hours
 - The table below shows the specific parameters which define our main case problem.
+
+
 | No of academic years             | 5                                                              |
 |----------------------------------|----------------------------------------------------------------|
 | No of majors                     | 9                                                              |
@@ -41,8 +43,12 @@ $Majors * Years * Courses * Hours = 1,140 slots$
 
 ## Algorithm
  - A slot is defined by a four digit number, the first two digits of the number identify the room number of this slot, third digit indicates the week day, and fourth indicates the hour, an example is shown below
+
+
  | Slot name : 1231                 | - Room number: 12 - Day: Tuesday - Hour: 8.30-9.30 (first hour)|
  |----------------------------------|----------------------------------------------------------------|
+
+
  - This simple definition of the available slots, have combined both of resources into one, now this means one last thing, a lecture would require to be assigned two slots for two hours, which are constrained to be in the same room, and of course consecutive hours in the same day.
 - The goal state is a full assignment for all of the courses with the required number of slots depending on whether it is a lecture or a lab
 - In the beginning the domain of all of the courses is the available list of slots defined.
@@ -69,4 +75,4 @@ We created our own visualizers to be able to print the output in a readable form
 
 
 
-You can find more details in the report.
+# You can find more details in the report.
