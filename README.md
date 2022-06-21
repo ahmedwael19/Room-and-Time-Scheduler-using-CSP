@@ -24,9 +24,9 @@ This project was developed for Artificial Intelligence class Spring 2020.
   - Any room is available for teaching during all of the week days, all of the working hours
 - The table below shows the specific parameters which define our main case problem.
 
-
-| No of academic years             | 5                                                              |
+|                                  |                                                                |
 |----------------------------------|----------------------------------------------------------------|
+| No of academic years             | 5                                                              |
 | No of majors                     | 9                                                              |
 | Courses / major / academic year  | 6 (maximum)                                                    |
 | 1 course                         | 1 Lecture + 1 Lab                                              |
@@ -44,9 +44,9 @@ $Majors * Years * Courses * Hours = 1,140 slots$
 ## Algorithm
  - A slot is defined by a four digit number, the first two digits of the number identify the room number of this slot, third digit indicates the week day, and fourth indicates the hour, an example is shown below
 
-
- | Slot name : 1231                 | - Room number: 12 - Day: Tuesday - Hour: 8.30-9.30 (first hour)|
+ |                                  |                                                                |
  |----------------------------------|----------------------------------------------------------------|
+ | Slot name : 1231                 | - Room number: 12 - Day: Tuesday - Hour: 8.30-9.30 (first hour)|
 
 
  - This simple definition of the available slots, have combined both of resources into one, now this means one last thing, a lecture would require to be assigned two slots for two hours, which are constrained to be in the same room, and of course consecutive hours in the same day.
@@ -71,8 +71,10 @@ We created our own visualizers to be able to print the output in a readable form
 - This was done for 12 times only, as more than that will not be applicable with the university current number of rooms.
 - As expected, our solution is tending to be an exponentially increasing, therefore, we can estimate the time complexity as $Օ(2**n )$ , where ​ n is the number of courses per major.
 - This is a rough estimation that can be not entirely true if we were able to solve the problem on a larger number of variables.
+
+
 ![analysis](https://i.ibb.co/HC6G0m2/b.png)
 
 
 
-# You can find more details in the report.
+# All the code is in the notebook and you can find more details in the report.
